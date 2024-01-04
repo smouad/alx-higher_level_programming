@@ -7,4 +7,4 @@ res = 0
 
 for i in range(argc):
     res += int(sys.argv[i + 1])
-print("{}",format(res))
+print("{}".format(res))
