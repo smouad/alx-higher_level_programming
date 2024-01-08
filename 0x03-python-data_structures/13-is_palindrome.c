@@ -7,7 +7,7 @@
 int is_palindrome(listint_t **head)
 {
 	listint_t *tmp = *head;
-	int values[2048], l_len = 0, cLoop, limit;
+	int values[2048], l_len = 0, i, mid;
 
 	if (head == NULL || *head == NULL)
 		return (1);
@@ -19,10 +19,10 @@ int is_palindrome(listint_t **head)
 		tmp = tmp->next;
 	}
 
-	limit = l_len / 2;
+	mid = l_len / 2;
 
-	for (cLoop = 0; cLoop < limit; cLoop++)
-		if (values[cLoop] != values[l_len - 1 - cLoop])
+	for (i = 0; i < mid; i++)
+		if (values[i] != values[l_len - 1 - i])
 			return (0);
 
 	return (1);
