@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import math
 def square_matrix_simple(matrix=[]):
     ret_matrix = []
     for i, rows in enumerate(matrix):
