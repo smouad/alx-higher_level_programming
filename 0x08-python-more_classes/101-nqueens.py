@@ -1,24 +1,27 @@
 #!/usr/bin/python3
 """
-Solves the N-Queens puzzle, finding all valid solutions for placing N non-attacking queens on an NxN chessboard.
+Solves the N-Queens puzzle, finding all valid solutions for placing N non-attacking queens
+on an NxN chessboard.
 
 Usage:
     $ ./101-nqueens.py N
 
 Parameters:
     N (int): The size of the chessboard and the number of queens to be placed.
-    
+
 Requirements:
     - N must be an integer greater than or equal to 4.
 
 Attributes:
     board (list): A list of lists representing the chessboard.
     solutions (list): A list of lists containing solutions.
-    
+
 Solutions Format:
     Solutions are represented as lists of coordinates in the format [[r, c], [r, c], [r, c], [r, c]],
-    where 'r' and 'c' represent the row and column, respectively, where a queen must be placed on the chessboard.
+    where 'r' and 'c' represent the row and column, respectively, where a queen must be placed
+    on the chessboard.
 """
+
 import sys
 
 
