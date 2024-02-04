@@ -2,9 +2,6 @@
 """Solves the N-queens puzzle.
 Determines all possible solutions to placing N
 N non-attacking queens on an NxN chessboard.
-Attributes:
-    board (list): A list of lists representing the chessboard.
-    solutions (list): A list of lists containing solutions.
 """
 import sys
 
