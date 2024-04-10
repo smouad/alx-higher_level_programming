@@ -2,10 +2,10 @@
 
 const size = Math.floor(Number(process.argv[2]));
 
-let row = ''
+let row = '';
 
 for (let j = 0; j < size; j++) {
-  row += 'X'
+  row += 'X';
 }
 
 for (let i = 0; i < size; i++) {
@@ -13,6 +13,6 @@ for (let i = 0; i < size; i++) {
     console.log('Missing size');
     break;
   } else {
-    console.log(row)
+    console.log(row);
   }
 }
